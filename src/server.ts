@@ -1,5 +1,7 @@
 import path from 'path';
 
-const currentPath = path.join(__dirname, '..');
+export function theMeaningOfLife() {
+  return 42;
+}
 
-console.log('eyo', currentPath);
+console.log('eyo', theMeaningOfLife());
